@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class ArmstrongNumber{
 	public static void main(String[]args){
 	Scanner s = new Scanner(System.in);
 		int num = 0, r = 0, sum = 0, temp = 0;
