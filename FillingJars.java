@@ -1,12 +1,12 @@
 import java.util.*;
-class Main{
+class FillingJars{
 	public static void main(String[]args){
 		Scanner s = new Scanner(System.in);
 		int candies = 0, left, right, total = 0, result = 0, avg, k = 0;
 			System.out.print("Enter how many jars: ");
-				int jars = s.nextInt();
+			int jars = s.nextInt();
 			System.out.print("Enter operations: ");
-				int op = s.nextInt();
+			int op = s.nextInt();
 					for(int ctr = 0; ctr < op; ctr++){
 						System.out.print("Enter left: ");
 						left = s.nextInt();
