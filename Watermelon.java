@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Watermelon{
 	public static void main(String[]args){
 	Scanner s = new Scanner(System.in);
 	System.out.print("Enter kilo/s: ");
