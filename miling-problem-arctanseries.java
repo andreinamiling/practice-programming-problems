@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class ArctanSeries{
 	public static void main(String[]args){
 		Scanner s = new Scanner(System.in);
 		int sign = 1;
@@ -16,7 +16,7 @@ class Main{
 						if (ctr % 2 == 1)
 							arctan = arctan - (Math.pow(x,j)/j);								
 							j = j + 2;
-									}
-	System.out.print(arctan);
+						}
+		System.out.print(arctan);
 	}
 }
