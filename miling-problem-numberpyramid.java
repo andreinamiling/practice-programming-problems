@@ -1,4 +1,4 @@
-class Main{
+class NumberPyramid{
 	public static void main(String[]args){
 		String x = "";
 		for(int ctr=1;ctr<=9;ctr++){
